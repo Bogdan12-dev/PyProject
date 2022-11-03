@@ -87,3 +87,5 @@ def execute_cmd(cmd: str):
 
 
 stt.va_listen(va_respond)
+#MADE BY BOGDAN KOVALSKY  telegram https://t.me/Magicxxxxxxx
+#MADE BY BOGDAN KOVALSKY, telegram https://t.me/Magicxxxxxxx
