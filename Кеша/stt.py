@@ -5,6 +5,7 @@ import queue
 import json
 
 model = vosk.Model('ru')
+#ru is language that u use, to use other language install it from vosk site(link in readme)
 samplerate = 16000
 device = 1
 
@@ -28,3 +29,4 @@ def va_listen(callback):
                 callback(json.loads(rec.Result())["text"])
             #else:
             #    print(rec.PartialResult())
+            #start recognizing
