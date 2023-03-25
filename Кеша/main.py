@@ -11,7 +11,7 @@ import pyjokes
 from vosk import Model, KaldiRecognizer
 import pyaudio
 print(f"{config.VA_NAME} начал свою работу ...")
-
+#this is code which we use to answer questions
 
 def va_respond(voice: str):
     print(voice)
